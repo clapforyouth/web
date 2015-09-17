@@ -1,0 +1,103 @@
+.image-radio {
+	display: none !important;
+}
+.image-radio + label {
+	display: block;
+	float: left;
+}
+.image-radio + label img {
+	border: 1px solid #bbb;
+	margin: 0 10px 10px 0;
+	display: block;
+}
+.image-radio:checked + label img {
+	border-color: #333;
+	opacity: 1;
+	
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.75);
+	box-shadow: 0 0 5px rgba(0,0,0,0.75);
+}
+
+#accordion-panel-general_settings_panel > h3::before {
+  content: "\f0ac ";
+  font-family: fontawesome;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+#accordion-panel-header_settings_panel > h3::before {
+  content: "\f1dc";
+  font-family: fontawesome;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+#accordion-panel-slider_settings_panel > h3::before {
+  content: "\f03e";
+  font-family: fontawesome;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+#accordion-panel-home_page_settings_panel > h3::before {
+  content: "\f015";
+  font-family: fontawesome;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+#accordion-panel-single_page_post_section_settings_panel > h3::before {
+  content: "\f0a0";
+  font-family: fontawesome;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+#accordion-panel-archive_page_settings_panel > h3::before {
+  content: "\f187";
+  font-family: fontawesome;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+#accordion-panel-widgets > h3::before {
+  content: "\f03b";
+  font-family: fontawesome;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+#accordion-panel-social_media_settings_panel > h3::before {
+  content: "\f08e";
+  font-family: fontawesome;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+#accordion-section-encrypted_lite_important_links_section > h3::before {
+  content: "\f087";
+  font-family: fontawesome;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+#customize-control-encrypted_lite_theme_options-important_links > p:hover {
+  text-decoration: underline;
+}
+
+#customize-control-encrypted_lite_theme_options-important_links > p {
+  font-size: 15px;
+}
+
+#customize-control-encrypted_lite_theme_options-important_links > p::before {
+  content: "\f124";
+  margin-right: 5px;
+  font-family: fontawesome
+}
+
+#accordion-panel-nav_menus h3::before {
+  content: "\f0c9";
+  margin-right: 5px;
+  font-family: fontawesome;
+}
