@@ -547,7 +547,7 @@ function encrypted_lite_get_fields()
                         'label' => __('Enable Call to Action Section', 'encrypted-lite'),
                         'type' => 'switch',
                         'priority' => 10)),
-                'call_to_action_post' => array('setting_args' => array(
+                'call_to_action_category' => array('setting_args' => array(
                         'default' => '',
                         'type' => 'option',
                         'capability' => $encrypted_lite_capability,
@@ -555,16 +555,16 @@ function encrypted_lite_get_fields()
                         'sanitize_callback' => 'encrypted_lite_text_field'), 'control_args' => array(
                         'label' => __('Select Post to Display as Call to Action', 'encrypted-lite'),
                         'type' => 'select',
-                        'choices' => $encrypted_options_pages,
+                        'choices' => $encrypted_options_categories,
                         'priority' => 11)),
-                'enter_number_of_character_show_call_to_action' => array('setting_args' => array
+                'enter_number_of_item_show_call_to_action' => array('setting_args' => array
                         (
                         'default' => __(250, 'encrypted-lite'),
                         'type' => 'option',
                         'capability' => $encrypted_lite_capability,
                         'transport' => 'refresh',
                         'sanitize_callback' => 'encrypted_lite_text_field'), 'control_args' => array(
-                        'label' => __('Enter the Number of Characters to show in Call to Action', 'encrypted-lite'),
+                        'label' => __('Enter the Number of Item to show in Call to Action', 'encrypted-lite'),
                         'type' => 'text',
                         'priority' => 12,
                         )),

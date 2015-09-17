@@ -110,6 +110,15 @@ function encrypted_lite_widgets_init() {
 		'after_title'   => '</span></h1>',
 	) );
 
+	register_sidebar( array(
+		'name'          => 'Blog 1',
+		'id'            => 'blog_1',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
 
 	register_sidebar( array(
 		'name'          => __( 'Footer 1', 'encrypted-lite' ),

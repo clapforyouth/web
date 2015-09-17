@@ -26,7 +26,8 @@ define('DB_NAME', 'wp_clap');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'CLAP4Youth525');
+//define('DB_PASSWORD', 'CLAP4Youth525');
+define('DB_PASSWORD', 'Q!W@e3r42012');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

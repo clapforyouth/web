@@ -62,6 +62,7 @@ endif;
         <?php endif; ?>
 
         <div class="el-container">
+            <?php encrypted_lite_admin_header_image(); ?>
             <?php if ($encrypted_ed_search == 1): ?>
                 <div class="search-icon">
                     <div class="search-click"><i class="fa fa-search"></i></div>
